@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Vite](https://vitejs.dev/).\
 Tech stack: React, Tailwindcss, Ant Design.\
-Developer: tuan
+Developer: tuan\
+Referenced App:  (https://app.aragon.org/#/)
 
 ## Available Scripts
 
