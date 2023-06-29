@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "/createDao.5662ad59.svg",
+        "title": "Create your DAO",
+        "description": "Mint tokens, set governance parameters, and deploy your DAO on-chain in minutes with our no-code setup process.",
+        "btn": "Create a DAO"
+    },
+    {
+        "id": 2,
+        "image": "/learnDao.185be441.svg",
+        "title": "Learn about DAOs",
+        "description": "Find inspiration and learn about DAOs in our education portal designed for builders at every stage of the journey.",
+        "btn": "Learn about DAOs"
+    },
+    {
+        "id": 3,
+        "image": "buildFaster.4b4e3b7e.svg",
+        "title": "Build faster",
+        "description": "Use our governance plugins to build a DAO, dApp, or anything you can imagine on the Aragon OSx protocol.",
+        "btn": "Coming soon"
+    }
+]

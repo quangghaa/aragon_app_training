@@ -1,24 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Button, Input } from 'antd'
+import Content from './layout/Content/Content'
+import Header from './layout/Header/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <span className="text-3xl font-bold underline">
-        Hello world!
-      </span>
-      <div className="App">
-        <Input />
-        <input />
-        <Button type="primary">Button</Button>
-      </div>
-    </>
-  )
+    return (
+        <>
+            <Header></Header>
+            <Content></Content>
+        </>
+    )
 }
 
 export default App
