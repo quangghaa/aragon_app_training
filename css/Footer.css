@@ -1,0 +1,22 @@
+footer {
+  background: #3164fa;
+  height: 115px;
+  padding: 0 128px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.footer-nav .menu {
+  list-style: none;
+  padding: 0;
+}
+.footer-nav .menu li {
+  display: inline-block;
+  margin-left: 32px;
+}
+.footer-nav .menu li a {
+  text-decoration: none;
+}/*# sourceMappingURL=Footer.css.map */

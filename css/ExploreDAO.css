@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap");
+.explore__title {
+  margin-top: 72px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #323f4b;
+}
+
+.loading {
+  margin-top: 14px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100rem;
+  border: 5px solid #003bf5;
+  border-top: 5px solid transparent;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.explore__show--item {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.btn {
+  border-radius: 12px;
+  width: 619px;
+  height: 206px;
+  background-color: #ffffff;
+  padding: 25px;
+  font-family: "Manrope", sans-serif;
+}
+.btn:hover {
+  border: 1px solid rgb(209, 209, 209);
+}
+.btn .btn__head {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.btn .btn__head--avatar {
+  background: linear-gradient(to right, #003bf5, #002985);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.btn .btn__head--title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+.btn .btn__head--author {
+  color: #616e7c;
+  font-size: 12.8px;
+  font-weight: 500;
+  margin-top: 4px;
+  text-align: left;
+}
+.btn .btn__foot p {
+  margin-top: 12px;
+  max-width: 569px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  color: #52606d;
+}
+.btn .btn__foot--gendes {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  font-size: 12.8px;
+  font-weight: 500;
+  color: #52606d;
+}
+
+.show_btn {
+  margin: 12px 0 120px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  height: 50px;
+  width: 155px;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.show_btn .chevron--down {
+  width: 16px;
+  height: 16px;
+}
+.show_btn:hover {
+  color: #0532c4;
+}/*# sourceMappingURL=ExploreDAO.css.map */
