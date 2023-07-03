@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "avatar": "WH",
+        "title": "We Have Had Enough",
+        "author": "wehavehadenough.dao.eth",
+        "desc": "The purpose of \"We Have Had Enough\" is to empower service workers, advocate for their rights, foster collaboration and solidarity, promote economic justice, provide resources and education, and embrace technological innovation. Through these efforts, we strive to create a more equitable and sustainable future for service workers.",
+        "gendes": [
+            {
+                "id": 1,
+                "item": "Ethereum"
+            },
+            {
+                "id": 2,
+                "item": "Wallet-Based"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "avatar": "TD",
+        "title": "test dao 5551",
+        "author": "test-dao-5551.dao.eth",
+        "desc": "A test DAO",
+        "gendes": [
+            {
+                "id": 1,
+                "item": "Ethereum"
+            },
+            {
+                "id": 2,
+                "item": "Wallet-Based"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "avatar": "DD",
+        "title": "DevGrants DAO",
+        "author": "devgrants.dao.eth",
+        "desc": "A $300,000 grants program focused on growing the functionality and adoption of Aragon OSx and Aragon App. The program is targeting teams that are extending the Aragon protocol's functionality and enabling new use cases for on-chain organizations.",
+        "gendes": [
+            {
+                "id": 1,
+                "item": "Ethereum"
+            },
+            {
+                "id": 2,
+                "item": "Wallet-Based"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "avatar": "ワ",
+        "title": "ワールドトリガー2次創作ゲーム制作チーム",
+        "author": "wt2g.dao.eth",
+        "desc": "ワールドトリガーの2次創作ゲームを制作することを目的としています。",
+        "gendes": [
+            {
+                "id": 1,
+                "item": "Ethereum"
+            },
+            {
+                "id": 2,
+                "item": "Token-Based"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "avatar": "QmNxCK5A9yGWP7skEU1h62qgXQNDMBMRv3Kz6RQxXNn6Y4.jpeg",
+        "title": "SafariDAO Multisig Ethereum",
+        "author": "safari.dao.eth",
+        "desc": "THIS IS A MULTISIG ACCOUNT FOR SAFARIDAO ON ETHEREUM. SafariDAO is a diverse and expanding community, dedicated to building, supporting, and growing the African Web3 ecosystem. Join us on our journey to a more decentralized future. #KaribuSafari",
+        "gendes": [
+            {
+                "id": 1,
+                "item": "Ethereum"
+            },
+            {
+                "id": 2,
+                "item": "Wallet-Based"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "avatar": "OO",
+        "title": "oasis of wonder",
+        "author": "oow.dao.eth",
+        "desc": "Sensible, sustainable & self-aware emarati dwellers. Promoting life in the emirates as the haven of ventures, future & fun.",
+        "gendes": [
+            {
+                "id": 1,
+                "item": "Ethereum"
+            },
+            {
+                "id": 2,
+                "item": "Token-Based"
+            }
+        ]
+    }
+]

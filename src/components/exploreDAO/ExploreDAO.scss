@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap");
+.explore__title {
+    margin-top: 72px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #323f4b;
+}
+@mixin loading($loadingWidth, $loadingHeight, $border) {
+    margin-top: 14px;
+    width: $loadingWidth;
+    height: $loadingHeight;
+    border-radius: 100rem;
+    border: $border solid #003bf5;
+    border-top: $border solid transparent;
+    animation: spin 1s infinite linear;
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+.loading--item {
+    @include loading(50px, 50px, 5px);
+}
+
+.explore__show--item {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.btn {
+    border-radius: 12px;
+    width: 619px;
+    height: 206px;
+    background-color: #ffffff;
+    padding: 25px;
+    font-family: "Manrope", sans-serif;
+    &:hover {
+        border: 1px solid rgb(209, 209, 209);
+    }
+    .btn__head {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        &--avatar {
+            background: linear-gradient(to right, #003bf5, #002985);
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            border-radius: 50%;
+        }
+        &--title {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 30px;
+
+            text-align: left;
+        }
+        &--author {
+            color: #616e7c;
+            font-size: 12.8px;
+            font-weight: 500;
+            margin-top: 4px;
+            text-align: left;
+        }
+    }
+    .btn__foot {
+        p {
+            margin-top: 12px;
+            max-width: 569px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: left;
+            color: #52606d;
+        }
+        &--gendes {
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+            column-gap: 24px;
+            font-size: 12.8px;
+            font-weight: 500;
+            color: #52606d;
+        }
+    }
+}
+
+.show_btn {
+    margin: 12px 0 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    height: 50px;
+    width: 155px;
+    column-gap: 12px;
+    border-radius: 10px;
+    font-weight: 500;
+    .chevron--down {
+        width: 16px;
+        height: 16px;
+    }
+    &:hover {
+        color: #0532c4;
+    }
+    .loading--show {
+        @include loading(16px, 16px, 1.6px);
+        margin-top: unset;
+    }
+}
