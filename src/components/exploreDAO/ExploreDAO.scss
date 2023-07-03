@@ -6,19 +6,22 @@
     line-height: 30px;
     color: #323f4b;
 }
-.loading {
+@mixin loading($loadingWidth, $loadingHeight, $border) {
     margin-top: 14px;
-    width: 50px;
-    height: 50px;
+    width: $loadingWidth;
+    height: $loadingHeight;
     border-radius: 100rem;
-    border: 5px solid #003bf5;
-    border-top: 5px solid transparent;
+    border: $border solid #003bf5;
+    border-top: $border solid transparent;
     animation: spin 1s infinite linear;
     @keyframes spin {
         to {
             transform: rotate(360deg);
         }
     }
+}
+.loading--item {
+    @include loading(50px, 50px, 5px);
 }
 
 .explore__show--item {
@@ -108,5 +111,9 @@
     }
     &:hover {
         color: #0532c4;
+    }
+    .loading--show {
+        @include loading(16px, 16px, 1.6px);
+        margin-top: unset;
     }
 }
