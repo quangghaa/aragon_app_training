@@ -1,11 +1,13 @@
 .container {
     padding: 0 286px;
     position: relative;
-    transform: translateY(-25%);
+    background-color: #f0f0f0;
 }
 .container .content__list {
     display: flex;
     column-gap: 24px;
+    position: relative;
+    transform: translateY(-30%);
     .card {
         width: 404px;
         height: 358px;
