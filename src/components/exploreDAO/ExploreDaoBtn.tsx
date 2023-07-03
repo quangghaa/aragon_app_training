@@ -1,6 +1,5 @@
-import React from 'react'
 import { ExploreItem } from '~/types/type'
-import Gende from './gendes/Gende'
+import Gende from '../gendes/Gende'
 
 interface PropsType {
     item: ExploreItem

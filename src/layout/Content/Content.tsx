@@ -1,5 +1,5 @@
 import "./content.scss"
-import content from "./content.json"
+import content from "../../json/content.json"
 import Card from "~/components/card/Card"
 import ExploreDAO from "~/components/exploreDAO/ExploreDAO"
 

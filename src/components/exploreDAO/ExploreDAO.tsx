@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import "./ExploreDAO.scss"
 import { ExploreItem } from "~/types/type"
-import exploreDAO from "./exploreDAO.json"
+import exploreDAO from "../../json/exploreDAO.json"
 import ExploreDaoBtn from "./ExploreDaoBtn"
 import ExploreDAOimg from "./ExploreDAOimg"
 
@@ -12,7 +12,7 @@ const ExploreDAO = () => {
         const fetchData = () => {
             setExploreList(exploreDAO);
         }
-        const delay = 5000
+        const delay = 50000
         const timerID = setTimeout(fetchData, delay)
         return () => clearTimeout(timerID)
     }, [])
